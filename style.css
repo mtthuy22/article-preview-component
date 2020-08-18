@@ -5,13 +5,29 @@ body {
   font-weight: 500;
 }
 .main{
+  height: 50vh;
+  width:70vw;
+  margin: auto;
   display: flex;
   background-color: white;
   border-radius: 10px;
 }
 
+.image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
 .credits {
   display: flex;
+}
+
+.profile_pic img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  
 }
 
 .attribution {
